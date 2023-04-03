@@ -5,20 +5,27 @@ body {
 
 .heading-div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start ;
     margin: auto;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+}
+
+/* .RPS {
+    position: fixed;
+    top: 0px; 
+    left: 0;
+    margin-left: 15px;
+} */
+
+.gloveGif {
+    margin-top: 10px;
 }
 
 #opponent-choice {
     width: 200px;
     height: 200px;
-    /* background-color: cyan; */
-    margin-top: 10px;
+    margin-top: -70px;
     border-width: 5px;
     border-color: black;
     border-style: dotted;
